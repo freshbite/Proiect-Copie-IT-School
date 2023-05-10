@@ -18,9 +18,8 @@ body{
     grid-auto-columns: 1fr; 
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 0fr 0.75fr 0.5fr 0fr 0.5fr 0fr; 
-    gap: 0px 23px; 
-
+    grid-template-rows: 0fr 0.65fr 0.6fr 0fr 0.5fr 0fr; 
+    gap: 0rem 1.438rem;
     grid-auto-flow: row;
     grid-template-areas:
       "header header header"
@@ -29,7 +28,7 @@ body{
       "AboutUS AboutUS AboutUS"
       "Parteneri Parteneri Parteneri"
       "footer footer footer";
-  }
+ }
   
 .header{ 
     grid-area: header; 
@@ -46,8 +45,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1150px;
-    min-width: 320px;
+    max-width: 66.875rem;
+    min-width: 20rem;
     margin: auto;
     
 }
@@ -63,7 +62,7 @@ body{
 
 .containernav img{
     width: auto;
-    height: 60px;
+    height: 3.75rem;
 }
 
 ul{
@@ -81,7 +80,7 @@ li a{
     display: block;
     color: var(--textcolor);
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     text-decoration: none;
 }
 
@@ -94,7 +93,7 @@ li a:hover{
 }
 
 span{
-    margin-top: -4px;
+    margin-top: -0.25rem;
 }
 
 .submenu{
@@ -106,7 +105,7 @@ span{
 }
 
 .submenu a{
-    padding: 0px;
+    padding: 0rem;
 }
 
 .about-us:hover .submenu{
@@ -137,16 +136,17 @@ h1{
 }
 
 .img img{
-    height: 24px;
+    height: 1.5rem;
     width: auto;
-    margin-left: 14px;
+    margin-left: 0.875rem;
 }
+
 .BineAiVenit .containernav{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 1150px;
-    min-width: 320px;
+    max-width: 66.875rem;
+    min-width: 20rem;
     margin: auto;
     margin-top: 0
 }
@@ -158,16 +158,16 @@ h1{
     text-transform: uppercase;
     display: block;
     text-decoration: none;
-    font-size: 14px;
-    padding: 18px 80px;
-    border-radius: 5px;
-    margin-top: 34px;
-    border: 2px solid transparent; /*adaugam un border transparent sa nu se scaleze button atunci cand facem hover peste el*/
+    font-size: 0.875rem;
+    padding: 1.125rem 5rem;
+    border-radius: 0.313rem;
+    margin-top: 2.125rem;
+    border: 0.125rem solid transparent; /*adaugam un border transparent sa nu se scaleze button atunci cand facem hover peste el*/
 }
 
 .BineAiVenit a:hover{
     background-color: var(--primarycolor);
-    border: 2px solid var(--button);
+    border: 0.125rem solid var(--button);
 }
 
 .CalendarCursuri p{
@@ -182,13 +182,13 @@ h1{
 }
 
 .ContinutCurs{
-    border: 1px solid #ddd;
-    width: 355px;
+    border: 0.063rem solid #ddd;
+    width: 21rem;
     height: max-content;
-    border-radius: 5px;
-    padding: 0px 5px;
+    border-radius: 0.313rem;
+    padding: 0rem 0.313rem;
     color: var(--secondcolor);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .cursuri{
@@ -196,7 +196,7 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .Simbol{
@@ -209,27 +209,27 @@ h1{
 }
 
 .bar{
-    margin-top: 10px;
-    height: 4px;
+    margin-top: 0.625rem;
+    height: 0.25rem;
     background-color: var(--button);
-    border-radius: 10px;
-    margin-bottom: 5px;
+    border-radius: 0.625rem;
+    margin-bottom: 0.313rem;
 }
 
 .Online{
     background-color: var(--textsecondary);
     display: flex;
-    margin-left: 10px;
-    height: 30px;
+    margin-left: 0.625rem;
+    height: 1.875rem;
     align-items: center;
-    padding: 1px 8px;
+    padding: 0.063rem 0.5rem;
     border-radius: 5%;
 }
 
 .AboutUS{ 
     grid-area: AboutUS; 
     background-color: var(--backsecondary);
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .AboutUS p{
@@ -242,12 +242,12 @@ h1{
 .info{
     text-align: center;
     color: var(--secondcolor);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .ContinutCurs img{
-    height: 250px;
-    padding: 0px 0px;
+    height: 14.625rem;
+    padding: 0rem 0rem;
 }
 
 .imagini{
@@ -268,31 +268,27 @@ h1{
 .parteners{
     display: flex;
     border: none;
-    width: 200px;
+    width: 12.5rem;
     flex-direction: row;
     justify-content: center;
 }
 
 .parteners img{ 
     border: none;
-    height: 100px;
-    padding: 0px 0px;
-    /*filter: url(filters.svg#grayscale);
-    / Firefox 3.5+ */
-    /*filter: gray;
+    height: 6.25rem;
+    padding: 0rem 0rem;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
     /* IE6-9 */
-    /*-webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
   /* Google Chrome & Safari 6+ */
 }
 
-/*
+
 .parteners img:hover{
     filter: none;
     -webkit-filter: none;
 }
-*/
-
-
 
 .footer { 
     grid-area: footer; 
